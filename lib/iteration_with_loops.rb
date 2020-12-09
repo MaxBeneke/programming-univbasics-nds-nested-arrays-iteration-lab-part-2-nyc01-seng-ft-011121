@@ -12,7 +12,7 @@ def find_min_in_nested_arrays(src)
       end
       element_index += 1 
     end
-    min_results.push(minimum_string_element)
+    min_results << minimum_string_element
     row_index += 1
   end
 end
